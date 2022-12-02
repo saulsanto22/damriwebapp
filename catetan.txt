@@ -1,0 +1,115 @@
+rencana buat api / rest api / web api / web service 
+actor / placeholder == admin
+crud 
+tabel === yang disediakan
+---------------------------------------------------------------------------
+form login : 
+email :
+password :
+// validasi akun 
+----------------------------------------------------------------------------
+form register :
+nama lengkap :
+email :
+password :
+alamat :
+jenis kelamin :
+---------------------------------------------------------------------------
+placeholder :
+user :
+pernumpang
+supir / driver 
+admin 
+----------------------------------------------------------------------------------------------------------------------
+data yang ada :
+nama supir , lat, long , route, jadwal , ongkos/tarif , distance , halte , estimasi waktu, trayek 
+koordinat === lang dan lat , posisi penumpang , poisisi bus , jalur
+------------------------------------------------------------------------------------------------------------------------
+TABEL PLAN
+BUS:
+stack disini 
+--------------------------------------------------------------------------------------------------------------------------
+verify akun : tujuan aktifasi akun --> keamanan data
+======================================================================================
+lokasi bus memanfaatkan lokasi dari supir
+maka: 
+ketika berhasil login : lakukan :
+izin lokasi dari supir , lalu lakukan refresh di beberapa keadaan 
+===================================
+database : DB_DAMRI
+route : 
+tbl_bus :
+id 
+===========================
+ide :
+penumpang mencari bus
+penumpang melihat posisi bus
+penumpang mencari halte 
+penumpang mengetahui estimasi kedatangan bus
+---------------------------------------
+supir melihat halte
+---------------------------------------
+relantionship plan:
+1 supir mengendarai 1 bus
+1 supir mempunyai banyak penumpang
+1 bus memeliki 1 jurusan
+1 halte memiliki banyak jurusan
+----------------------------------------------------------------------------------------------------------------------------------
+Function yang dibutuhkan :
+1. akses poisisi saat ini menggunakan geolocation
+2. update lokasi ke database secara berkala / realtime
+3. menampilkan maps : diantaranya :
+    1. marker posisi pernumpang
+    2. marker lokasi bus ==> get from supir
+    3. update posisi, jika bergerak
+    4. prediksi tiba bus dan penumpang
+    5. rute yang ditempuh
+----------------------------------------------------------------------------------------------------------------------------------------
+form WEB API :
+data yang di input oleh admin ---> jika sudah atau bernilai true
+akses melalui HTTP menggunakan method HTTP
+
+izinkan lokasi 
+update
+
+
+
+
+
+
+
+
+bus -> jurusan bus , nama_supir
+penumpang -> 
+route ->
+
+
+rute  , tarif, jadwal keberangkatan , halte
+--------------------------------
+FLUTTER :
+DAFTAR SEBAGAI SUPIR 
+DAFTAR SEBAGAI penumpang
+----------------------------------------
+GEO ---> IZINKAN 
+-----------------------------------------
+SALING LACAK
+
+
+
+direction , maps , place , geolocation, geocoding
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
